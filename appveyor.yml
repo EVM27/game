@@ -1,7 +1,6 @@
 version: 1.0.{build}
 image: Visual Studio 2022
 
-config:
-  build_script:
-    - npm install
-    - npm test
+build_script:
+  - npm install
+  - npm test
