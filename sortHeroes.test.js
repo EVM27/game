@@ -15,4 +15,4 @@ describe('sortHeroes', () => {
 
     expect(sortHeroes(heroes)).toEqual(sortedHeroes);
   });
-});
+});//
